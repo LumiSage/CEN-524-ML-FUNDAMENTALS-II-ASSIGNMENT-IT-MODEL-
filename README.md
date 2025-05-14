@@ -3,7 +3,7 @@
 
 ## A. Problem Background
 
-During my 400-level IT, I served as a DevOps Engineer where I worked with developers to manage version control, deploy code to cloud platforms, implement CI/CD pipelines, and monitor running applications.
+During my 400-level IT, I served as a DevOps Engineer at Conclase Consultings where I worked with developers to manage version control, deploy code to cloud platforms, implement CI/CD pipelines, and monitor running applications.
 
 For this assignment, I modeled the task of **monitoring system reliability** based on:
 - Deployment frequency
