@@ -39,6 +39,8 @@ Normalization ensures:
 
 The model was evaluated using MSE on a held-out test set.
 
+MSE on Test Set: 61.7816584405222
+
 ## 📁 Files in Repository
 
 - `devops_synthetic_data.csv`: Synthetic dataset used
