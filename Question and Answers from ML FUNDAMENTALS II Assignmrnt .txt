@@ -1,0 +1,17 @@
+QUESTIONS AND ANSWERS
+
+1. How does normalization affect the feature values?
+
+ ANS: Normalization with zero mean and unit variance ensures all features contribute equally to training. It speeds up convergence in gradient descent and prevents scale-dominant features.
+
+2. Why does MSE penalize large errors more than MAE?
+
+ ANS: MSE squares the errors, making large differences more impactful, while MAE treats all errors linearly.
+
+3. A small learning rate converges slowly; a large one may overshoot or diverge. The chosen rate (0.01) balanced speed and stability.
+
+ ANS: Why might the model perform differently on real vs. synthetic data?**  
+  Synthetic data is often cleaner and follows known relationships. Real-world data contains noise, outliers, and hidden variables.
+
+4. Improvement Suggestion:**  
+ ANS: Implement mini-batch gradient descent or add L2 regularization to avoid overfitting.
