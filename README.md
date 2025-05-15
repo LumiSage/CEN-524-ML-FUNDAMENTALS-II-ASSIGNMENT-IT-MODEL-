@@ -1,9 +1,9 @@
 
-# CEN523 Assignment Report by OYEBOWALE EMMANUEL 20CJ027487
+# CEN523 Assignment Report by** OYEBOWALE EMMANUEL 20CJ027487**
 
 ## A. Problem Background
 
-During my 400-level IT, I served as a DevOps Engineer at Conclase Consultings where I worked with developers to manage version control, deploy code to cloud platforms, implement CI/CD pipelines, and monitor running applications.
+During my 400-level IT, I served as a DevOps Engineer at **Conclase Consulting**s where I worked with developers to manage version control, deploy code to cloud platforms, implement CI/CD pipelines, and monitor running applications.
 
 For this assignment, I modeled the task of **monitoring system reliability** based on:
 - Deployment frequency
@@ -41,7 +41,7 @@ The model was evaluated using MSE on a held-out test set.
 
 MSE on Test Set: 61.7816584405222
 
-QUESTIONS AND ANSWERS
+**QUESTIONS AND ANSWERS**
 
 1. How does normalization affect the feature values?
 
@@ -59,11 +59,17 @@ QUESTIONS AND ANSWERS
 4. Improvement Suggestion:**  
  ANS: Implement mini-batch gradient descent or add L2 regularization to avoid overfitting.
 
-## 📁 Files in Repository
+**Key findings:**
 
-- `devops_synthetic_data.csv`: Synthetic dataset used
-- `model.py`: Python code for preprocessing, training, and evaluation
-- `README.md`: This report
+Normalization improved convergence speed.
+
+The final MSE and MAE for the real-world dataset were significantly higher than for synthetic data, reflecting the noise and complexity of Shell’s IT systems.
+
+A smaller learning rate gave smoother convergence, while larger ones risked divergence.
+
+scikit-learn’s model reached better performance in fewer iterations, but gradient descent offered more transparency and control.
+
+Improvement Suggestion: Implement adaptive learning rates (e.g., Adam or RMSProp) to stabilize training and converge faster, especially on multi-feature datasets like asset logs and configuration records in Shell systems.
 
 ---
 
